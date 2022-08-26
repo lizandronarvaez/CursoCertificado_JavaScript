@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="module">
+        // Importacions modulos
+        import * as calculosFunciones from './UsoModulos.js'
+
+        // Identificacion del DOM
+        let containerIva = document.getElementById('obtenerIva')
+        let containerIrpf = document.getElementById('obtenerIrpf')
+        let containerTotal = document.getElementById('obtenerTotal')
+        let campoInput = document.getElementById('campo')
+        let boton = document.getElementById('convertidor')
+
+        // Eventos
+        boton.addEventListener('click', () => {
+            containerIva.innerHTML = `El iva es ${Number(calculosFunciones.calcularIva(campoInput.value))}€`
+
+            containerIrpf.innerHTML = `La retencion por IRPF es de ${Number(calculosFunciones.calcularIrpf(campoInput.value))}€`
+
+            containerTotal.innerHTML = `La retencion Total es de ${calculosFunciones.calcularTotal(campoInput.value)}€`
+
+        })
+
+
+    </script>
+    <input type="text" placeholder="Introduce ingresos" id="campo"><br><br>
+    <button value="Calcular" id="convertidor">Calcular con iva</button><br><br>
+    <div id="obtenerIva">
+
+    </div>
+    <div id="obtenerIrpf">
+
+    </div>
+    <div id="obtenerTotal">
+
+    </div>
+</body>
+
+</html>
