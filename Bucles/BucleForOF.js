@@ -19,14 +19,14 @@ for (const mes of meses) {
 // }
 // console.log(array[0][1] +" + "+ array[1][2])
 
-const email="lizandrojesus13@hotmail.com";
+const email = "lizandrojesus13@hotmail.com";
 
-for(item of email){
+for (item of email) {
 
-    if(email.includes("@")){
+    if (email.includes("@")) {
         console.log("El correo es valido!")
         break
-    }else{
+    } else {
         console.log("El correo no es valido, debe incluir su formato '@'!")
         break
     }

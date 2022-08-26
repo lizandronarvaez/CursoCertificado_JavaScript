@@ -6,14 +6,14 @@
 // unshift(Agrega el elemento al principio del array)
 // shift(elimina el elemento del princpio del array)
 
-let numeros=[10,20,30,40,50,60,70]
+let numeros = [10, 20, 30, 40, 50, 60, 70]
 
-console.log('El elemento eliminado es el '+ numeros.pop())
+console.log('El elemento eliminado es el ' + numeros.pop())
 console.table(numeros)
 numeros.push(80)
 console.table(numeros)
 
-numeros.unshift(1,2,3,4,5)
+numeros.unshift(1, 2, 3, 4, 5)
 console.table(numeros)
 
 numeros.shift()

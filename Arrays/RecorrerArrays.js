@@ -15,7 +15,7 @@ for (let [item, pais] of CiudadesEspaña.entries()) {       // El bucle for in s
 
 // BUCLE FOR EACH
 
-CiudadesEspaña.forEach(pais =>{ 
-    capitales+=pais.toUpperCase()+' '
+CiudadesEspaña.forEach(pais => {
+    capitales += pais.toUpperCase() + ' '
 })
 console.log(capitales)

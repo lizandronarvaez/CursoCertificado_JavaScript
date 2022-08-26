@@ -26,6 +26,6 @@ let coche = {
     motor: 1.600,
     potencia: '163cv'
 }
-for(let property in coche){
+for (let property in coche) {
     console.log(`${property}: ${coche[property]}`)
 }
