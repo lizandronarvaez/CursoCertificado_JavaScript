@@ -7,14 +7,17 @@
 ## En este curso que realize por varios meses, he aprendido las bases del lenguaje de Javascript, y aqui dejo de aportacion mis ejercicios realizado durante el curso.
 
 #
-
-- Uso de variables y constantes;
+- Operadores
+- Uso de variables y constantes
 - Uso de bucles :
   - Bucle ' FOR ', 'FOR OF','FOR IN'
   - Bucle 'WHILE' , 'DO-WHILE'
 - Condicionales:
   - IF-ELSE
-- Uso de Arrays y Metodos:
+- Documento Object Model:
+  - Eventos
+  - Métodos 
+  - Dom HTML/ CSS
 - Uso de clases
   - Funciones:
     - Constructor()
@@ -27,19 +30,18 @@
   - Declaracion de funciones
   - Funciones Anonimas
 - Uso de Objetos:
-  - Acceder a Objetos mediante el simbo '.'
+  - Método Array
+  - Poo
 - Manejo de errores:
   - Try
   - Catch
+  - Resolver
+  - Reject
 - Manejo del DOM
 - Asincronia:
   - Async ~ Await
-  - Fetch:
-    - Then
-    - Catch
-  - Promesas:
-    - Resolve()
-    - Reject()
+  - Fetch
+  - Promesas
 - Manejo de modulos:
   - Exportar
   - Importar
